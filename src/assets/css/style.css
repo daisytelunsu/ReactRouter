@@ -1,0 +1,161 @@
+/* general rules */
+body {
+	font-family: 'Open Sans', sans-serif;
+	font-size:15px;
+	color:#777777;
+	line-height:1.7em;
+	font-weight:400;
+	background:#ffffff;
+	-webkit-font-smoothing: antialiased;
+	-moz-font-smoothing: antialiased;
+}
+
+.blk {
+  color: #222222;
+}
+
+a{
+	text-decoration:none;
+	cursor:pointer;
+	color:#1d1d1d;
+}
+
+a:hover,a:focus,a:visited{
+	text-decoration:none;
+	outline:none;
+}
+
+h1,h2,h3,h4,h5,h6 {
+	position:relative;
+	font-weight:normal;
+	margin:0px;
+	background:none;
+	line-height:1.6em;
+	font-family: 'Montserrat', sans-serif;
+}
+
+input,button,select,textarea{
+	font-family: 'Montserrat', sans-serif;
+}
+
+textarea{
+	overflow:hidden;
+}
+
+p{
+	position:relative;
+	line-height:1.8em;	
+}
+
+.ph-50 {
+	padding: 0 50px;
+}
+
+.ph-30 {
+	padding: 0 30px;
+}
+
+.ph-90 {
+	padding: 0 90px;
+}
+
+.mb-30 {
+	margin-bottom: 30px;
+}
+
+.mt-5 {
+	margin-top: 5px;
+}
+
+.mt-30 {
+	margin-top: 30px;
+}
+
+.mt-90 {
+	margin-top: 90px;
+}
+
+.mt-130 {
+	margin-top: 130px;
+}
+
+.mb-30 {
+	margin-bottom: 30px;
+}
+
+.mb-50 {
+	margin-bottom: 50px;
+}
+
+.mb-70 {
+	margin-bottom: 70px;
+}
+
+.no-spacing {
+	margin: 0px!important;
+	padding: 0px !important;
+}
+
+.strike-through{
+	text-decoration:line-through;	
+}
+
+.auto-container{
+	position:static;
+	max-width:1200px;
+	padding:0px 15px;
+	margin:0 auto;
+}
+
+.medium-container{
+	max-width:850px;
+}
+
+.page-wrapper{
+	position:relative;
+	margin:0 auto;
+	width:100%;
+	min-width:300px;
+	overflow: hidden;
+}
+
+.border-bottom {
+	border-bottom: 1px solid #ecf0f6;
+}
+
+ul,li{
+	list-style:none;
+	padding:0px;
+	margin:0px;	
+}
+
+.theme-btn{
+	display:inline-block;
+	transition:all 0.3s ease;
+	-moz-transition:all 0.3s ease;
+	-webkit-transition:all 0.3s ease;
+	-ms-transition:all 0.3s ease;
+	-o-transition:all 0.3s ease;
+}
+
+.theme-btn:focus {
+	color: inherit;
+}
+
+.grey-bg {
+	background-color: #ecf0f6;
+}
+
+.black-bg {
+	background-color: #222;
+}
+
+.text {
+	font-size: 14px;
+	color: #848484;
+	line-height: 26px;
+}
+
+.centered{
+	text-align:center;	
+}
